@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: applicationset-hello-plugin
-  namespace: applicationset-hello-plugin
+  #namespace: applicationset-hello-plugin
 spec:
   selector:
     matchLabels:
